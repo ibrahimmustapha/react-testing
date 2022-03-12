@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Layout from './components/layout'
+import Button from './components/button'
 
 const fakedata = [
   {
@@ -34,6 +35,7 @@ function App() {
   return (
     <div> 
       <h4>React JavaScript</h4>
+      <Button />
         {fakedata.map((data) => {
           return (
             <div key={data.id}>

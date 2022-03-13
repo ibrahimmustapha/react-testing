@@ -33,7 +33,7 @@ const fakedata = [
 
 function App() {
   return (
-    <div> 
+    <div className="App"> 
       <h4>React JavaScript</h4>
       <Button />
         {fakedata.map((data) => {

@@ -1,7 +1,11 @@
+// importing react-testing methods 
 import { act, cleanup, render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
+
+// importing button component
 import Button from '../components/button'
 
+// cleaning up after each test not after all tests
 afterEach(cleanup)
 
     test('theme changes successfully', () => {
@@ -17,3 +21,6 @@ afterEach(cleanup)
         // content of button element must change to The Current Theme  dark
         expect(btnElement).toHaveTextContent(/The Current Theme dark/i)
     })
+
+// cleaning up after all test
+afterAll(cleanup)

@@ -1,0 +1,17 @@
+input[type="text"] {
+    border: 2px solid grey;
+    width: 73%;
+    padding: 12px 20px;
+}
+
+input[type="text"]:focus {
+    border: 2px solid grey;
+}
+
+button {
+    padding: 12px 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    background: rgb(129, 129, 197);
+    color: white;
+}

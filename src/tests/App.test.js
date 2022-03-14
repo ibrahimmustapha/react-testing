@@ -6,7 +6,7 @@ test('renders learn react link', () => {
   render(<App />);
 
   // * screen.getByText finds the element by its text content
-  const paraElement = screen.getByText(/React JavaScript/i)
+  const paraElement = screen.getByText(/React Todo App/i)
 
   // * checks if getByText content is in the document object
   expect(paraElement).toBeInTheDocument()

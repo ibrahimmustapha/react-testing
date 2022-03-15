@@ -9,9 +9,10 @@ import Button from '../components/button'
 afterEach(cleanup)
 
     test('theme changes successfully', () => {
-        act(() => {
-            render(<Button />)
-        })
+        
+        // render button component
+        render(<Button />)
+
         // * button element should contain "The Current Theme"
         const btnElement = screen.getByText(/The Current Theme/i)
     

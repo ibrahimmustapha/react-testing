@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import TodoInput from './components/inputs/todo-input'
+import Header from './components/header'
 
 function App() {
   return (
     <div className="App"> 
-      <h3>React Todo App</h3>
+      <Header title="React Todo App" />
       <TodoInput />
     </div>
   )

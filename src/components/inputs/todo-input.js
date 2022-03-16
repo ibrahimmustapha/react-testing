@@ -7,8 +7,8 @@ const TodoInput = () => {
     const [value, setValue] = useState("")
     const [todos, setTodos] = useState([
         {
-            id: 1,
-            task: 'Hey there I am your default todo'
+            id: 0,
+            task: 'Hey there I am your default todo',
         }
     ])
 
@@ -39,7 +39,7 @@ const TodoInput = () => {
             
             {/* List all todos here */}
             {todos.map(todo => {
-                return <TodoList key={todo.id + 1} task={todo.task} />
+                return <TodoList key={todo.key + 1} task={todo.task} />
             })}
         </div>
     )

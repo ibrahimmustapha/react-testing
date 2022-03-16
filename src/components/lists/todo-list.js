@@ -1,10 +1,10 @@
 import React from 'react'
 import './style.css'
 
-const TodoList = (props) => {
+const TodoList = ({task}) => {
     return (
         <div className="todo-container">    
-        <div className="todo-list" >{props.task}</div>
+        <div className="todo-list" >{task}</div>
         </div>
     )
 }

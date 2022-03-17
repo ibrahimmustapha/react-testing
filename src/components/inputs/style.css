@@ -15,3 +15,8 @@ button {
     background: rgb(129, 129, 197);
     color: white;
 }
+
+.todo-footer {
+    margin-top: 50px;
+    text-align: left;
+}

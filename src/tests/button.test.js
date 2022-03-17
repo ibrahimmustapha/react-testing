@@ -8,6 +8,7 @@ import Button from '../components/button'
 // cleaning up after each test not after all tests
 afterEach(cleanup)
 
+describe('Button Component Tests', () => {
     test('theme changes successfully', () => {
         
         // render button component
@@ -22,6 +23,7 @@ afterEach(cleanup)
         // content of button element must change to The Current Theme  dark
         expect(btnElement).toHaveTextContent(/The Current Theme dark/i)
     })
+})
 
 // cleaning up after all test
 afterAll(cleanup)

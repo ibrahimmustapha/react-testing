@@ -13,7 +13,7 @@ This repository is for the purpose of learning and familiarization of the jest a
 - Run ``npm run test`` to see test results
 - Congratulations🎉 It's up and running
 
-### What I have learnt so far
+## What I have learnt so far
 
 ### Types of Testing
 - Unit testing

@@ -18,7 +18,7 @@ const TodoInput = () => {
         const newTodo = [...todos, { task }]
         setTodos(newTodo)
     }
-
+ 
     // handle to submission
     const handleSubmit = e => {
         e.preventDefault();

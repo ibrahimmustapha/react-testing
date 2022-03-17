@@ -1,5 +1,5 @@
 // importing react-testing methods 
-import { act, cleanup, render, screen } from '@testing-library/react'
+import {cleanup, render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import TodoInput from '../components/inputs/todo-input'
 
@@ -27,6 +27,16 @@ describe('Todo Input Tests', () => {
         const todoFooterParagraph = screen.getByText(/No of Todos: 1/i)
     
         expect(todoFooterParagraph).toBeInTheDocument()
+    })
+
+    test('check if input renders correctly', () => {
+        render(<TodoInput />)
+
+        const inputElement = screen.getByRole("textbox")
+
+        userEvent.type(inputElement, '{enter}Hello,World')
+
+        expect(inputElement).toHaveValue("Hello,World")
     })
 })
 

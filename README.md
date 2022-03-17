@@ -13,6 +13,33 @@ This repository is for the purpose of learning and familiarization of the jest a
 - Run ``npm run test`` to see test results
 - Congratulations🎉 It's up and running
 
+### What I have learnt so far
+
+### Types of Testing
+- Unit testing
+- Integration Testing 
+- Automation/Acceptance Testing
+
+### React Testing Library Query Methods 
+- getByText()
+- getByPlaceholder()
+- findByText()
+- findByPlaceHolder()
+- and many more
+
+### Assertions 
+- toHaveTextContent()
+- toBeInTheDocument()
+- toHaveValue()
+- toBe()
+- and more
+
+### Events Testing with UserEvent or FireEevnt
+- userEvent.click()
+- userEvent.type()
+- userEVent.dblClick()
+- and many more
+
 ## Contributions
 - @me
 

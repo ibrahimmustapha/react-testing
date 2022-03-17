@@ -21,24 +21,24 @@ This repository is for the purpose of learning and familiarization of the jest a
 - Automation/Acceptance Testing
 
 ### React Testing Library Query Methods 
-- getByText()
-- getByPlaceholder()
-- findByText()
-- findByPlaceHolder()
-- and many more
+- ``getByText()``
+- ``getByPlaceholder()``
+- ``findByText()``
+- ``findByPlaceHolder()``
+- ``and many more``
 
 ### Assertions 
-- toHaveTextContent()
-- toBeInTheDocument()
-- toHaveValue()
-- toBe()
-- and more
+- ``toHaveTextContent()``
+- ``toBeInTheDocument()``
+- ``toHaveValue()``
+- ``toBe()``
+- ``and more``
 
 ### Events Testing with UserEvent or FireEevnt
-- userEvent.click()
-- userEvent.type()
-- userEVent.dblClick()
-- and many more
+- ``userEvent.click()``
+- ``userEvent.type()``
+- ``userEVent.dblClick()``
+- ``and many more``
 
 ## Contributions
 - @me
